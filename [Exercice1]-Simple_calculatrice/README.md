@@ -21,3 +21,7 @@ Projet sous version Python : 3.6.8
 ## Authors
 
 - [@Hy-gon](https://github.com/Hy-gon)
+
+## Licence
+
+Ce projet est sous licence MIT.
