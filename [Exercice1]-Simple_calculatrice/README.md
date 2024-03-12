@@ -7,9 +7,17 @@ Ce projet consiste en une calculatrice basique prenant en compte une faible gest
 - Addition, soustraction, multiplication et division de nombres positifs.
 - Gestion basique des erreurs : affichage d'un message en cas de saisie invalide.
 
-## Utilisation
 
-Pour exécuter la calculatrice, utilisez la commande suivante :
+## Exécution
 
 ```bash
-py -3.6.8 main.py
+  py -3.6.8 main.py
+```
+    
+## 🛠 Version Python
+Projet sous version Python : 3.6.8
+
+
+## Authors
+
+- [@Hy-gon](https://github.com/Hy-gon)
