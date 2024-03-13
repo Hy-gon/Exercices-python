@@ -1,3 +1,10 @@
+#!/usr/bin/env python
+
+#__Author__ = "Hy-gon"
+#__Python__ = "3.6.8"
+#__Status__ = "Finished"
+#__Emails__ = "mickael.lemieux@outlook.com"
+
 nombre_1 = input("Veuillez entrer votre premier nombre positif : ")
 nombre_2 = input("Veuillez entrer votre second nombre positif : ")
 operator = input("Veuillez entrer votre opérateur (+, -, *, /, %) : ")
