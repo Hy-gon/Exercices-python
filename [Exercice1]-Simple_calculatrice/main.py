@@ -8,14 +8,19 @@ if nombre_1.isdigit() and nombre_2.isdigit():
 
     if operator == "+":
         result = nombre_1 + nombre_2
+        
     elif operator == "-":
         result = nombre_1 - nombre_2
+        
     elif operator == "*":
         result = nombre_1 * nombre_2
+        
     elif operator == "/":
         result = nombre_1 / nombre_2
+        
     elif operator == "%":
         result = nombre_1 % nombre_2
+        
     else:
         result = "Votre opérateur n'est pas correcte, veuillez reesayer"
 else:
