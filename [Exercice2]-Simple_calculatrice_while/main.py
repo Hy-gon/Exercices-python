@@ -1,3 +1,10 @@
+#!/usr/bin/env python
+
+#__Author__ = "Hy-gon"
+#__Python__ = "3.6.8"
+#__Status__ = "Finished"
+#__Emails__ = "mickael.lemieux@outlook.com"
+
 first_number = second_number = ""
 
 while not (first_number.isdigit() and second_number.isdigit()):
