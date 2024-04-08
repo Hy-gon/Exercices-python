@@ -33,11 +33,9 @@ def remove_element(shop_list, element):
         
 # Print the list
 def print_list(shop_list):
-    display = ""
     if len(shop_list) != 0:
-        for i in shop_list:
-            display += f"{shop_list.index(i) + 1}. {i}\n"
-        print(display)
+        display = [f"{num}. {el}" for num, el in enumerate(shop_list)]
+        print("\n".join(display))
     else:
         print("Votre liste ne contient aucun élément.")
         
