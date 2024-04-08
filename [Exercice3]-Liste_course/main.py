@@ -1,13 +1,21 @@
 import sys
 
-MENU = "\n Choisissez parmi les 5 options suivantes : \n 1: Ajouter un élément à la liste \n 2: Retirer un élément à la liste \n 3: Afficher la liste \n 4: Vider la liste \n 5: Quitter \n"
+MENU = """
+Choisissez parmi les 5 options suivantes :
+1: Ajouter un élément à la liste
+2: Retirer un élément à la liste
+3: Afficher la liste
+4: Vider la liste
+5: Quitter
+"""
+
 choice = 0
 element = ""
 shop_list = []
 
 # Adding element to the list
 def add_element(shop_list, element):
-    if element != "":
+    if element:
         if not element in shop_list:
             shop_list.append(element)
             print(f"L'élément {element} a bien été ajouté à la liste.")
@@ -18,7 +26,7 @@ def add_element(shop_list, element):
 
 # Remove element from the list
 def remove_element(shop_list, element):
-    if element != "":
+    if element:
         if element in shop_list:
             shop_list.remove(element)
             print(f"L'élément {element} a bien été retiré de la liste.")
@@ -44,8 +52,7 @@ def clear_list(shop_list):
         print("la liste est déjà vide.")
         
 def close_program():
-    print("A bientôt !")
-    sys.exit()
+    sys.exit("A bientôt !")
 
 # Loop program
 while True:
