@@ -33,9 +33,11 @@ def remove_element(shop_list, element):
         
 # Print the list
 def print_list(shop_list):
+    display = ""
     if len(shop_list) != 0:
         for i in shop_list:
-            print(f"{shop_list.index(i) + 1}. {i}")
+            display += f"{shop_list.index(i) + 1}. {i}\n"
+        print(display)
     else:
         print("Votre liste ne contient aucun élément.")
         
@@ -58,9 +60,7 @@ def main():
         choice = input("Votre choix : ")
         
         try:
-            choix_int = int(choice)  
-            
-            
+            choix_int = int(choice)
             match choix_int:
                 case 1:
                     element = input("Entrez le nom d'un élément à ajouter à la liste de courses : ")
@@ -76,7 +76,7 @@ def main():
                     sys.exit("A bientôt !")
                 case other:
                     print("Veuillez choisir une des 5 options suivantes")
-                
+                    
             element == ""
             print("_" * 50)
             
