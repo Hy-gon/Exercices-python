@@ -55,30 +55,34 @@ def close_program():
     sys.exit("A bientôt !")
 
 # Loop program
-while True:
-    print(MENU)
-    choice = input("Votre choix : ")
-    
-    try:
-        choix_int = int(choice)  
+def main():
+    while True:
+        print(MENU)
+        choice = input("Votre choix : ")
         
-        if choix_int == 1:
-            element = input("Entrez le nom d'un élément à ajouter à la liste de courses : ")
-            add_element(shop_list, element)
-        elif choix_int == 2:
-            element = input("Entrez le nom d'un élément à retirer de la liste de courses : ")
-            remove_element(shop_list, element)
-        elif choix_int == 3:
-            print_list(shop_list)
-        elif choix_int == 4:
-            clear_list(shop_list)
-        elif choix_int == 5:
-            close_program()
-        else:
-            print("Veuillez choisir une des 5 options suivantes")
+        try:
+            choix_int = int(choice)  
             
-        element == ""
-        print("_" * 50)
-        
-    except ValueError:
-        print("Veuillez entrer un nombre valide")
+            if choix_int == 1:
+                element = input("Entrez le nom d'un élément à ajouter à la liste de courses : ")
+                add_element(shop_list, element)
+            elif choix_int == 2:
+                element = input("Entrez le nom d'un élément à retirer de la liste de courses : ")
+                remove_element(shop_list, element)
+            elif choix_int == 3:
+                print_list(shop_list)
+            elif choix_int == 4:
+                clear_list(shop_list)
+            elif choix_int == 5:
+                close_program()
+            else:
+                print("Veuillez choisir une des 5 options suivantes")
+                
+            element == ""
+            print("_" * 50)
+            
+        except ValueError:
+            print("Veuillez entrer un nombre valide")
+
+if __name__ == "__main__":
+    main()
