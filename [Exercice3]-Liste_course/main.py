@@ -9,10 +9,6 @@ Choisissez parmi les 5 options suivantes :
 5: Quitter
 """
 
-choice = 0
-element = ""
-shop_list = []
-
 # Adding element to the list
 def add_element(shop_list, element):
     if element:
@@ -53,6 +49,10 @@ def clear_list(shop_list):
 
 # Loop program
 def main():
+    choice = 0
+    element = ""
+    shop_list = []
+    
     while True:
         print(MENU)
         choice = input("Votre choix : ")
