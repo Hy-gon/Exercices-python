@@ -14,14 +14,14 @@ Ce projet consiste en la création simple d'une liste de courses avec 5 choix d'
 Il est tout à fait envisageable de ressortir la liste sur un TXT, un PDF ou bien un WORD, dans le futur
 
 
-## Exécution
+## Exemple d'exécution
 
 ```bash
-  py -3.6.8 main.py
+  py -3.12.2 main.py
 ```
     
 ## 🛠 Version Python
-Projet sous version Python : 3.6.8
+Projet sous version Python : 3.10 minimum
 
 
 ## Authors
