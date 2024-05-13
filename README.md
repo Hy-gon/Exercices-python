@@ -6,7 +6,7 @@ Je metterais ici tout petit projets provenant d'idée personnel ou bien de forma
 
 ## Démarrage
 
-Pour chaque dossier de projets :
+Exemple pour chaque dossier de projets :
 
 ```py -3.6 main.py```
 
@@ -17,7 +17,7 @@ Pour chaque dossier de projets :
 * [Git-bash](https://git-scm.com/downloads)
 
 ## Versions
-**version stable :** 3.6.8 Python
+**version stable :** 3.6.8 Python OU 3.12.2 en fonction des projets
 
 ## Auteurs
 
